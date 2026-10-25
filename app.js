@@ -4,8 +4,8 @@
  * 2. Replace the empty values below with your project URL and anon/publishable key.
  * 3. Keep Row Level Security enabled. Never put a service-role key in browser code.
  */
-const SUPABASE_URL = "";
-const SUPABASE_ANON_KEY = "";
+const SUPABASE_URL = "https://znhsxhgwcljpeyjklker.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_ZurOQvWRYHdzPLEAXJFAdA_c27WNjXb";
 const STORAGE_KEY = "studyHabitsResponses_v1";
 const hasSupabase = Boolean(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
 const db = hasSupabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
