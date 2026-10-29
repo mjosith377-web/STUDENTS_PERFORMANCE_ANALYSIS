@@ -26,7 +26,15 @@
       </div>
       <form id="surveyForm">
         <div class="field-grid">
-          <label>USN / NAME <input name="student_code" maxlength="40" placeholder="Optional;" /></label>
+          <label>USN / NAME
+  <input
+    name="student_code"
+    type="text"
+    maxlength="40"
+    placeholder="Enter your USN or name"
+    required
+  />
+</label>
           <label>Current CGPA (0–10) <input name="cgpa" type="number" min="0" max="10" step="0.01" required placeholder="e.g. 8.2" /></label>
           <label>1. Daily study hours <input name="study_hours" type="number" min="0" max="24" step="0.5" required placeholder="e.g. 3.5" /></label>
           <label>2. Attendance (%) <input name="attendance" type="number" min="0" max="100" step="1" required placeholder="e.g. 85" /></label>
